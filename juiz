@@ -1,0 +1,10 @@
+module.exports.run = async (bot, message, args) => {
+ 
+    message.delete();
+    await message.chat.sendPhoto('https://i.hizliresim.com/8m9y90m.jpg')
+    
+    }
+
+module.exports.config = {
+    command: ".woman"
+}
